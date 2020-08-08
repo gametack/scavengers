@@ -1,0 +1,29 @@
+point = level = differnt type (adventurer, hunter, scavanger... etc)
+
+***lookhere tag used for changes. so search lookhere
+
+implement user just logged in and online offline user indicator
+
+notification: each message clickable to open full message
+	hunt: show hunt location, players, current status and more
+	message: open chat screen
+	friend: open user profile with accept/decline button
+Chllenge complete animation.
+   ANIMATE PUTTING A CHECK ON CHALLENGE COMPLETED
+instantiate one object of mapItem
+access control for enginio
+confirm enginio database functionality
+***SEE ABOUT USING GOOGLE MAPS****
+position over wifi and gps and not gps alone
+work on createAdvertisement
+work on map
+FIRST TAB - DISCOVER TAB]
+
+**IMPORTTANt:***
+ATOMIC MULTIPLAYER CHALLENGE. "WHEN CHALLENGE REACHED, CHECK IF ANYPLAYER IS CURRENTLY DOING THAT CHALLENGE."
+HOW: PING PLAYERS (SEND PRIVATE SOCKET MESSAGE), OTHER END WILL CHECK IF THAT CHALLENGE IS UP. DO THIS BY SETTING MESSAGE TYPE AND WHEN MESSAGE TYPE DETECTED, CHECK TO SEE IF HUNT IS BEING PLAYED AND IF THAT CHALLENGE IS CURRENTLY UP. P.S. MAKE A CHALLENGE PLAYING SIGNAL THAT IS SET WHEN CHELLENGE REACHED AND CURRENTLY DOING CHALLENGE. 
+  (ONLY VALID IN MULTIPLAYER)
+
+
+huntcompletedcongrats page:
+	List users playing profile in the middle

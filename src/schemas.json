@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "type": "schemas"
+  },
+  "objects": [
+    {
+      "object": {"id":"55adbd4dd45dfe7266012c4a","name":"objects.games","createdAt":"2015-07-21T03:32:29.857Z","updatedAt":"2015-07-22T01:19:31.749Z","properties":[{"id":null,"indexed":false,"name":"type","onCreate":null,"processors":[],"target":null,"type":"string"},{"id":null,"indexed":false,"name":"name","onCreate":null,"processors":[],"target":null,"type":"string"},{"id":null,"indexed":false,"name":"challenges","onCreate":null,"processors":[],"target":null,"type":"array"}],"internalProperties":[{"id":null,"indexed":true,"name":"objectType","onCreate":null,"processors":[],"target":null,"type":"string"},{"id":null,"indexed":true,"name":"createdAt","onCreate":null,"processors":[],"target":null,"type":"time"},{"id":null,"indexed":true,"name":"updatedAt","onCreate":null,"processors":[],"target":null,"type":"time"},{"id":null,"indexed":true,"name":"creator","objectType":"users","onCreate":null,"processors":[],"target":null,"type":"ref"},{"id":null,"indexed":true,"name":"updater","objectType":"users","onCreate":null,"processors":[],"target":null,"type":"ref"},{"id":null,"indexed":true,"name":"id","onCreate":null,"processors":[],"target":null,"type":"objectid"}],"validators":[],"accessControlList":{"read":[{"id":"*","objectType":"aclSubject"}],"create":[{"id":"*","objectType":"aclSubject"}]},"accessControlListTemplate":{"read":[{"id":"*","objectType":"aclSubject"}],"update":[{"id":"*","objectType":"aclSubject"}],"delete":[{"id":"*","objectType":"aclSubject"}],"admin":[{"id":"creator","objectType":"aclSubject"}]}}
+}
+  ]
+}

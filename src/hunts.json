@@ -1,0 +1,10 @@
+{
+  "meta": {
+    "type": "schemas"
+  },
+  "objects": [
+    {
+      "object": {"id":"54a9d70de5bde50ad706e736","name":"objects.hunts","createdAt":"2015-01-05T00:13:01.105Z","updatedAt":"2015-07-14T01:00:27.191Z","properties":[{"id":null,"indexed":false,"name":"challenges","onCreate":null,"processors":[],"target":null,"type":"array"},{"id":null,"indexed":false,"name":"name","onCreate":null,"processors":[],"target":null,"type":"string"}],"internalProperties":[{"id":null,"indexed":true,"name":"objectType","onCreate":null,"processors":[],"target":null,"type":"string"},{"id":null,"indexed":true,"name":"createdAt","onCreate":null,"processors":[],"target":null,"type":"time"},{"id":null,"indexed":true,"name":"updatedAt","onCreate":null,"processors":[],"target":null,"type":"time"},{"id":null,"indexed":true,"name":"creator","objectType":"users","onCreate":null,"processors":[],"target":null,"type":"ref"},{"id":null,"indexed":true,"name":"updater","objectType":"users","onCreate":null,"processors":[],"target":null,"type":"ref"},{"id":null,"indexed":true,"name":"id","onCreate":null,"processors":[],"target":null,"type":"objectid"}],"validators":[],"accessControlList":{"read":[],"create":[]},"accessControlListTemplate":{"read":[],"update":[],"delete":[],"admin":[{"id":"creator","objectType":"aclSubject"}]}}
+}
+  ]
+}
